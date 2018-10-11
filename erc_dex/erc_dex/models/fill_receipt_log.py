@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from erc_dex.models.fill_receipt import FillReceipt  # noqa: F401,E501
+# from erc_dex.models.fill_receipt import FillReceipt  # noqa: F401,E501
 
 
 class FillReceiptLog(object):

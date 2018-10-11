@@ -276,8 +276,8 @@ class IFillReceipt(object):
         :param side: The side of this IFillReceipt.  # noqa: E501
         :type: str
         """
-        if side is None:
-            raise ValueError("Invalid value for `side`, must not be `None`")  # noqa: E501
+        # if side is None:
+        #     raise ValueError("Invalid value for `side`, must not be `None`")  # noqa: E501
 
         self._side = side
 
